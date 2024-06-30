@@ -1,6 +1,6 @@
 import telebot
 
-bot = telebot.TeleBot("6782521207:AAGojdYUCbSzfGjVBVF87xTrpJZqWbjbX7Q")
+bot = telebot.TeleBot("7248172577:AAHQUgfG0iWB2TkJpq47R6-X8vqC5fdeE58")
 @bot.message_handler()
 def Myfunc(message):
     bot.send_message(message.chat.id, "Hi, What's happend?")
